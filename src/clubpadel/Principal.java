@@ -52,6 +52,9 @@ public class Principal {
         socio2.setDireccion("Calle Camino Real, 15");
         System.out.println(socio1.toString()+ "Direccion "+socio1.getDireccion());
         System.out.println(socio2.toString() + "Dirección " + socio2.getDireccion());
+        SocioClubPadel socio3 = new SocioClubPadel(codigoSocio,nomApeSocio,edadSocio, telSocio, correoESocio, padresSocios);
+        socio3.setDireccion("Calle Huerto Molino, 6");
+        System.out.println(socio3.toString()+ "Direccion "+socio3.getDireccion());
     }
     
 }
