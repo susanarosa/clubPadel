@@ -47,10 +47,10 @@ public class Principal {
             padresSocios = false;
         
         SocioClubPadel socio1 = new SocioClubPadel(codigoSocio,nomApeSocio,edadSocio, telSocio, correoESocio, padresSocios);
-        
+        socio1.setDireccion("Calle Huerto Molino, 6");
         SocioClubPadel socio2 = new SocioClubPadel(123, "Perico", (byte)45, "87854565", "pepe@slkdfjs", true);
         
-        System.out.println(socio1.toString());
+        System.out.println(socio1.toString()+ "Direccion "+socio1.getDireccion());
         System.out.println(socio2.toString());
     }
     
