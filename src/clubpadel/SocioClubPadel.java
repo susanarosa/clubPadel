@@ -16,6 +16,7 @@ public class SocioClubPadel {
     private String telefono;
     private String correoE;
     private boolean padresSonSocios;
+    private String direccion;
 
     public SocioClubPadel(int codigo, String nombreApellidos, byte edad, String telefono, String correoE, boolean padresSonSocios) {
         this.codigo = codigo;
@@ -24,6 +25,7 @@ public class SocioClubPadel {
         this.telefono = telefono;
         this.correoE = correoE;
         this.padresSonSocios = padresSonSocios;
+        this.direccion="una direccion";
     }
 
     public SocioClubPadel() {
@@ -48,6 +50,8 @@ public class SocioClubPadel {
     
     
     // Getters y Setters
+    public void setDireccion(String direccion){ this.direccion = direccion;}
+    public String getDireccion(){ return direccion;}
     public int getCodigo() {
         return codigo;
     }
