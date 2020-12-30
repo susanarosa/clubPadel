@@ -18,7 +18,6 @@ public class Principal {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Cambios de Susana ");
         System.out.print("Introduce el código de socio: ");
         int codigoSocio = sc.nextInt();
         sc.nextLine();
@@ -50,11 +49,8 @@ public class Principal {
         socio1.setDireccion("Calle Huerto Molino, 6");
         SocioClubPadel socio2 = new SocioClubPadel(123, "Perico", (byte)45, "87854565", "pepe@slkdfjs", true);
         socio2.setDireccion("Calle Camino Real, 15");
-        System.out.println(socio1.toString()+ "Direccion "+socio1.getDireccion());
-        System.out.println(socio2.toString() + "Dirección " + socio2.getDireccion());
-        SocioClubPadel socio3 = new SocioClubPadel(codigoSocio,nomApeSocio,edadSocio, telSocio, correoESocio, padresSocios);
-        socio3.setDireccion("Calle Huerto Molino, 6");
-        System.out.println(socio3.toString()+ "Direccion "+socio3.getDireccion());
-    }
+        System.out.println(socio1.toString());
+        System.out.println(socio2.toString());
+         }
     
 }
