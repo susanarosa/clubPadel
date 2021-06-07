@@ -12,4 +12,5 @@ package clubpadel;
 public class Persona {
     String name;
     String dni;
+int edad;
 }
