@@ -13,4 +13,6 @@ public class Persona {
     String name;
     String dni;
 int edad;
+    double peso
+        
 }
