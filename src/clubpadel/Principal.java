@@ -39,10 +39,11 @@ public class Principal {
         
         System.out.print("¿Los padres son socios? (S/N)");
         char respuesta = sc.next().charAt(0);
+	char  respuMinus=Character.toLowerCase(respuesta);
         sc.nextLine();
         
         boolean padresSocios;
-        if (respuesta == 's' || respuesta == 'S') 
+        if (respuesta == 's')// || respuesta == 'S')  AL CONVERTIRSE EN MINUSCA NO ES NECESARIO COMPROBAR LA LETRA EN MINUSCULA
             padresSocios = true;
         else
             padresSocios = false;
@@ -56,6 +57,7 @@ public class Principal {
         SocioClubPadel socio3 = new SocioClubPadel(codigoSocio,nomApeSocio,edadSocio, telSocio, correoESocio, padresSocios);
         socio3.setDireccion("Calle Huerto Molino, 6");
         System.out.println(socio3.toString()+ "Direccion "+socio3.getDireccion());
+	
     }
     
 }
