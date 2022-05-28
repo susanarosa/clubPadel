@@ -18,7 +18,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Prueba de Fetch");
+        System.out.println("Prueba PedroPérez");
         System.out.println("Cambios de Susana ************ soy el original de verdad");
         System.out.print("Introduce el código de socio: ");
         int codigoSocio = sc.nextInt();
